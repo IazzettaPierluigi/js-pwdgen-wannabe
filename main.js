@@ -4,4 +4,6 @@ const cognome = prompt('dammi il tuo cognome')
 
 const colorepref = prompt('dammi il tuo colore preferito')
 
-document.writeln(nome, cognome, colorepref)
+// document.writeln(nome, cognome, colorepref)
+
+document.getElementById('campi').innerHTML=(nome +  cognome + colorepref)

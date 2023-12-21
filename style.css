@@ -1,0 +1,14 @@
+#card{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+  
+    text-align: center;
+    background-color: grey;
+}
+
+#campi{
+    background-color: lightgray;
+    padding: 5px;
+}
